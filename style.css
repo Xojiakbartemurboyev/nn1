@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #d0bda9;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .nav-links {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    gap: 130px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .mode-toggle button {
+    padding: 8px 14px;
+    margin-left: 8px;
+    border: none;
+    gap: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+   
+  }
+  
+  .light-btn {
+    background-color: orange;
+    color: black;
+  }
+  
+  .dark-btn {
+    background-color: black;
+    color: white;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+    align-items: center;
+  }
+  
+  .text-content {
+    max-width: 450px;
+    padding-bottom: 70px;
+  }
+  
+  .text-content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+  }
+  
+  .text-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-bottom: 70px;
+  }
+  
+  .details-btn {
+    background-color: orange;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .image-content img {
+    width: 600px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
